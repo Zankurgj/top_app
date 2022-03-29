@@ -7,10 +7,10 @@ declare module "*.svg" {
 // if the static image import handling is enabled
 
 interface StaticImageData {
-	src: string
-	height: number
-	width: number
-	blurDataURL?: string
+	src: string;
+	height: number;
+	width: number;
+	blurDataURL?: string;
   }
   
   declare module '*.png' {
@@ -40,7 +40,7 @@ interface StaticImageData {
   declare module '*.webp' {
 	const content: StaticImageData
   
-	export default content
+	export default content;
   }
   
   declare module '*.avif' {
