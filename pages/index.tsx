@@ -1,6 +1,7 @@
 import { Htag } from "../components/Htag/Htag";
 import { Button } from "../components/Button/Button";
 import { P } from "../components/P/P";
+import { Tag } from "../components/Tag/Tag";
 
 export default function Home(): JSX.Element {
   return (
@@ -10,7 +11,9 @@ export default function Home(): JSX.Element {
       <Button appearance="ghost" arrow="down" className="aslkjdkjsa">
         кнопка
       </Button>
-      <P size="l" className="jopa">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nemo soluta hic asperiores necessitatibus dignissimos quia ex architecto assumenda veniam.</P>
+      <P size="l" className="jopa">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nemo soluta hic asperiores necessitatibus dignissimos quia ex architecto assumenda veniam.
+      </P>
+      <Tag color="red" href="sadksd">Ghost</Tag>
     </>
   );
 }
